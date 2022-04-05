@@ -1,0 +1,9 @@
+local something = true
+while something do
+local args = {
+    [1] = "I tried to cheat in a game using the N Exploit, and cracked it lol, please make fun of me!",
+    [2] = "All"
+}
+wait(5)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+end
